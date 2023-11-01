@@ -1,0 +1,7 @@
+<div class="container" style="width: 70rem">
+    <h3>listado de Entradas</h3>
+    <hr>
+    <app-entrada 
+        *ngFor="let entrada of ListaEntradas"
+        [entrada] = "entrada" ></app-entrada>
+</div>
